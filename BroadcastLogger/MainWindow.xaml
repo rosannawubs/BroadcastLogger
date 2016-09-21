@@ -1,0 +1,9 @@
+﻿<Window x:Class="BroadcastLogger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Broadcast Logger" Height="350" Width="525" ResizeMode="CanMinimize" Icon="icon.ico" Closing="Window_Closing" StateChanged="Window_StateChanged">
+    <Grid Background="#FFF0F6F2">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>

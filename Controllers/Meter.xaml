@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Controllers.Meter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="57">
+    <StackPanel x:Name="Panel" Height="200" VerticalAlignment="Bottom" Width="57" Background="#FFF0F6F2" HorizontalAlignment="Left" RenderTransformOrigin="0.5,0.5">
+        <StackPanel.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="180"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </StackPanel.RenderTransform>
+    </StackPanel>
+</UserControl>

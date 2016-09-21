@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40418.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadcastLogger", "BroadcastLogger\BroadcastLogger.csproj", "{ADD2B735-7FEF-43AE-B7A6-89395A00D44F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9} = {0DF9AF99-2582-4900-9B3F-409210CF69C9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadcastLoggerLib", "BroadcastLoggerLib\BroadcastLoggerLib.csproj", "{0DF9AF99-2582-4900-9B3F-409210CF69C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{A155B1D4-BC92-4E21-9932-4E12E339D97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test3", "Test3\Test3.csproj", "{6C6A2262-A5EB-4BCB-8EDF-C012BD0B2693}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9} = {0DF9AF99-2582-4900-9B3F-409210CF69C9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{0954FE26-A726-40F0-9DFB-B7B95DA8FF25}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{CAF5B4F1-C0E4-4EAE-917D-F7BB25592DC9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://askho.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BroadcastLogger\\BroadcastLogger.csproj
+		SccProjectName1 = BroadcastLogger
+		SccLocalPath1 = BroadcastLogger
+		SccProjectUniqueName2 = BroadcastLoggerLib\\BroadcastLoggerLib.csproj
+		SccProjectName2 = BroadcastLoggerLib
+		SccLocalPath2 = BroadcastLoggerLib
+		SccProjectUniqueName3 = Controllers\\Controllers.csproj
+		SccProjectName3 = Controllers
+		SccLocalPath3 = Controllers
+		SccProjectUniqueName4 = Test3\\Test3.csproj
+		SccProjectName4 = Test3
+		SccLocalPath4 = Test3
+		SccProjectUniqueName5 = UnitTests\\UnitTests.csproj
+		SccProjectName5 = UnitTests
+		SccLocalPath5 = UnitTests
+		SccProjectUniqueName6 = Installer\\Installer.vdproj
+		SccProjectName6 = Installer
+		SccLocalPath6 = Installer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD2B735-7FEF-43AE-B7A6-89395A00D44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD2B735-7FEF-43AE-B7A6-89395A00D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD2B735-7FEF-43AE-B7A6-89395A00D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD2B735-7FEF-43AE-B7A6-89395A00D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF9AF99-2582-4900-9B3F-409210CF69C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A155B1D4-BC92-4E21-9932-4E12E339D97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A155B1D4-BC92-4E21-9932-4E12E339D97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A155B1D4-BC92-4E21-9932-4E12E339D97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A155B1D4-BC92-4E21-9932-4E12E339D97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6A2262-A5EB-4BCB-8EDF-C012BD0B2693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6A2262-A5EB-4BCB-8EDF-C012BD0B2693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6A2262-A5EB-4BCB-8EDF-C012BD0B2693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6A2262-A5EB-4BCB-8EDF-C012BD0B2693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0954FE26-A726-40F0-9DFB-B7B95DA8FF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0954FE26-A726-40F0-9DFB-B7B95DA8FF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0954FE26-A726-40F0-9DFB-B7B95DA8FF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0954FE26-A726-40F0-9DFB-B7B95DA8FF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF5B4F1-C0E4-4EAE-917D-F7BB25592DC9}.Debug|Any CPU.ActiveCfg = Debug
+		{CAF5B4F1-C0E4-4EAE-917D-F7BB25592DC9}.Debug|Any CPU.Build.0 = Debug
+		{CAF5B4F1-C0E4-4EAE-917D-F7BB25592DC9}.Release|Any CPU.ActiveCfg = Release
+		{CAF5B4F1-C0E4-4EAE-917D-F7BB25592DC9}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
